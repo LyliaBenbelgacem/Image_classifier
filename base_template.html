@@ -1,0 +1,280 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifier page</title>
+    <!-- Normalize File  -->
+    <link rel="stylesheet" href="Css/normalise.css">
+    <!-- Css File  -->
+    <link rel="stylesheet" href="Css/Style.css"/> 
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap File  -->
+    <link rel="stylesheet" href="Css//bootstrap.min.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+</head>
+<body>
+    <!-- Start header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>AI project</h1>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3" href="#Tools">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3" href="#Theory">Theorical consepts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3" href="#Test">Test</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Header  -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="container">
+            <div class="text">
+                <h1>Welcome, To Image Classifier</h1>
+                <p>Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p>
+            </div>
+            <div class="image">
+                <img decoding="async" src="UI_images/landing-image.png" alt="" />
+            </div>
+        </div>
+        <a href="#articles" class="go-down">
+            <i class="fas fa-angle-double-down fa-2x"></i>
+        </a>
+    </div>
+    <!-- End Landing -->
+    <div class="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About</h2>
+            </div>
+            <div class="about-content">
+                <div class="image">
+                    <img src="UI_images/about.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>An image classifier AI is an application that utilizes artificial intelligence algorithms to automatically categorize and identify objects, patterns, or features within images</h2>
+                    <p>SmartImage Classifier is an advanced image recognition and classification application powered by cutting-edge artificial intelligence algorithms. It revolutionizes the way we organize, search, and understand visual content. Whether you're a photographer, a researcher, or simply looking to streamline your image library, SmartImage Classifier offers a powerful and intuitive solution.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Tools  -->
+    <div class="Tools">
+        <div class="main-heading">
+            <h2>Tools</h2>
+        </div>
+        <div class="break"></div>
+        <div class="container">
+            <div class="box">
+                <img decoding="async" src="UI_images/TensorFlow.png" alt="" />
+                <h3>TensorFlow</h3>
+                <p>
+                    TensorFlow is an open-source library developed by Google for numerical computation and machine learning. It is specifically designed to facilitate the development and deployment of large-scale machine learning models.
+                </p>
+            </div>
+            <div class="box">
+                <img decoding="async" src="UI_images/sql.jpg" alt="" />
+                <h3>SQLite</h3>
+                <p>
+                    SQLite is a lightweight, open-source relational database management system (RDBMS) that is widely used for embedded systems and small-scale applications. It is designed to be self-contained, serverless, and zero-configuration, making it easy to set up and use.
+                </p>
+            </div>
+            <div class="box">
+                <img decoding="async" src="UI_images/python.jpg" alt="" />
+                <h3>Python</h3>
+                <p>
+                    Python is one of the most popular programming languages for machine learning. It offers a rich ecosystem of libraries, frameworks, and tools that make it well-suited for developing and implementing machine learning algorithms and models
+                </p>
+            </div>
+            <div class="box">
+                <img decoding="async" src="UI_images/django.png" alt="" />
+                <h3>Django</h3>
+                <p>
+                    Django is a high-level Python web framework that simplifies the development of web applications. It follows the model-view-controller (MVC) architectural pattern and promotes the "Don't Repeat Yourself" (DRY) principle, aiming to maximize code reusability and maintainability
+                </p>
+            </div>
+            <div class="box">
+                <img decoding="async" src="UI_images/Keras.png" alt="" />
+                <h3>Keras Tuner</h3>
+                <p>
+                    Keras Tuner is a hyperparameter optimization library for Keras, a popular deep learning framework. It helps automate the process of selecting the best hyperparameters for a neural network model.
+                </p>
+            </div>
+            <div class="box">
+                <img decoding="async" src="UI_images/API.png" alt="" />
+                <h3>API</h3>
+                <p>
+                    An API, or Application Programming Interface, is a set of rules and protocols that allow different software applications to communicate and interact with each other
+                </p>
+            </div>
+        </div>
+    </div> 
+    <!-- End Tools  -->
+    <!-- Start Theory  -->
+    <div class="work-steps" id="work-steps">
+        <div class="main-heading"><h2>How It Works ?</h2></div>
+        <div class="container">
+            <img decoding="async" src="imgs/work-steps.png" alt="" class="image" />
+            <div class="info">
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-1.png" alt="" />
+                <div class="text">
+                    <h3>Gather and preprocess data</h3>
+                    <p>
+                        Collect a relevant dataset that represents the problem you want the AI model to solve. This could be labeled data (where inputs are already matched with correct outputs) or unlabeled data (where you want the AI model to find patterns on its own). Preprocess the data by cleaning it, normalizing it, and splitting it into training and testing sets
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-2.png" alt="" />
+                <div class="text">
+                    <h3>Design the neural network architecture</h3>
+                    <p>
+                        Determine the structure of the neural network, including the number and type of layers, the number of neurons in each layer, and the activation functions to be used. The architecture depends on the problem domain and complexity.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Initialize the model</h3>
+                    <p>
+                        Initialize the weights and biases of the neural network randomly or using a predefined method. These initial values allow the model to start learning from scratch.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Forward propagation</h3>
+                    <p>
+                        Perform forward propagation to pass the training data through the neural network from input to output. Each neuron in the network applies its activation function to the weighted sum of its inputs, and the outputs are propagated to the next layer until the final output is obtained
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Compute the loss</h3>
+                    <p>
+                        Compare the output of the neural network to the desired output (ground truth) using a loss function. The loss function quantifies the difference between the predicted output and the actual output.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Backpropagation</h3>
+                    <p>
+                        Calculate the gradients of the loss function with respect to the weights and biases in the network. This is done by propagating the error backward through the network, using the chain rule of calculus.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Update the weights and biases</h3>
+                    <p>
+                        Adjust the weights and biases of the neural network using an optimization algorithm, such as gradient descent. The aim is to minimize the loss function by iteratively updating the parameters in the direction of steepest descent.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Repeat steps 4-7</h3>
+                    <p>
+                        Repeat the forward propagation, loss computation, backpropagation, and weight update steps for multiple iterations or epochs. This allows the model to learn from the data and improve its performance gradually.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Evaluate the model</h3>
+                    <p>
+                        Use the testing set to assess the model's performance on unseen data. Calculate relevant metrics such as accuracy, precision, recall, or F1 score to measure how well the model generalizes to new examples.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Fine-tune and optimize</h3>
+                    <p>
+                        Based on the evaluation results, make adjustments to the model or training process if needed. This may involve modifying the architecture, tuning hyperparameters, increasing the amount of data, or applying regularization techniques to prevent overfitting.
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                <img decoding="async" src="imgs/work-steps-3.png" alt="" />
+                <div class="text">
+                    <h3>Deploy and use the trained model</h3>
+                    <p>
+                        Once the model achieves satisfactory performance on the testing set, it can be deployed for real-world use. The trained AI model can now be utilized to make predictions or solve problems in the desired application domain.
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Theory  -->
+    <!-- Start TRy  -->
+    <div class="try">
+        <div class="container">
+            <form class="file-upload-form" action="your-submit-action" method="post" enctype="multipart/form-data">
+                <!-- {% csrf_token %} -->
+                <label for="myFileInput" class="file-upload-label">
+                    <span class="file-upload-icon"><i class="fas fa-cloud-upload-alt"></i></span>
+                    <span class="file-upload-text">Upload a file</span>
+                </label>
+                <input type="file" id="myFileInput" class="file-upload-input" accept=".jpg, .png, .pdf">
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- End Try  -->
+    <!-- Start Pop up  -->
+    <div id="resultPopup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <h2>Classification Result</h2>
+          <p id="resultText"></p>
+        </div>
+      </div>
+    <!-- End Pop up  -->
+       <!-- <form  method="post" enctype="multipart/form-data" >
+        {% csrf_token %}
+        {{ form.as_p }}
+        
+        <button type="submit">Submit</button>
+   
+       </form> -->
+    
+    <script src="./JS/master.js"></script>
+</body>
+</html> 
